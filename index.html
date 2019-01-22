@@ -11,40 +11,46 @@
   <meta name="Description" content="Put your description here.">
 </head>
 <body>
-  <header>
-    <h1>Super Smash Bros</h1>
+  <header itemscope itemtype="http://schema.org/header">
+    <h1 itemprop="title">Super Smash Bros</h1>
     <img class="picture_header" src="/contents/header_picture.jpg" alt="Super_Smash">
-    <h4>Rédiger par Haris Souici</h4>
+    <h4 itemprop="redacteur">Rédiger par Haris Souici</h4>
     <h4>15/01/2019 || 1 commentaire</h4>
   </header>
   <main>
-    <h2>Les 3 épisodes marquants de la série</h2>
-    <article class="first-article">
+    <h2 itemprop="saga">Les 3 épisodes marquants de la série</h2>
+    <article class="first-article" itemprop="article">
       <h3>Super smash bros mélée</h3>
       <img class="smash_melee_picture" src="/contents/smashmelee.png" alt="Smash mélée">
-      <p class="article_paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ipsum maxime iste? Provident veritatis ipsam quaerat eligendi harum praesentium ipsum, temporibus quis totam explicabo animi necessitatibus fuga voluptatem tenetur tempore!</p>
-    </article>
-    <article class="second_article">
-      <h3>Super smash bros brawl</h3>
-      <img class="smash_melee_picture" src="/contents/smashbrawl.png" alt="Smash mélée">
-      <p class="article_paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ipsum maxime iste? Provident veritatis ipsam quaerat eligendi harum praesentium ipsum, temporibus quis totam explicabo animi necessitatibus fuga voluptatem tenetur tempore!</p>
-    </article>
-    <article class="third_article">
-      <h3>Super smash bros ultimate</h3>
-      <img class="smash_melee_picture" src="/contents/smashultimate.png" alt="Smash mélée">
-      <p class="article_paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ipsum maxime iste? Provident veritatis ipsam quaerat eligendi harum praesentium ipsum, temporibus quis totam explicabo animi necessitatibus fuga voluptatem tenetur tempore!</p>
-    </article>
-    <div class="comment_group" role="group">
-      <div class="comment" role="contentinfo">
-        <img class="profile_picture" src="/contents/profil.png" alt="profil picture">
-        <p class="writted_comment">Superbe article !</p>
-        <p class="name_comment">Peter Parker</p>
-        <p class="date_comment">16/01/2019</p>
-      </div>
+      <p class="article_paragraph"> Super Smash Bros Mélée est le second Super Smash Bros à être sorti et aussi
+        celui qui a eu le plus de succés chez les joueurs, avec une note  15/20 sur jeux vidéos.com il se
+        démarque des autres licences de jeux de combat grâce à sa dynamique et ses personnages cultes de la 
+        licence Nintendo.</p>
+      </article>
+      <article class="second_article" itemprop="article">
+        <h3>Super smash bros brawl</h3>
+        <img class="smash_melee_picture" src="/contents/smashbrawl.png" alt="Smash mélée">
+        <p class="article_paragraph">Super Smash Bros Brawl et le 3ème Super Smash Bros de la licence,
+        il fut beaucoup aprécié chez les personnes jouant en famille ou entre ami mais au 
+        niveau competitif ce n'est pas vraiment le cas car il était trop dirigé pour le côté fun
+        et non try hard.</p>
+      </article>
+      <article class="third_article" itemprop="article">
+        <h3>Super smash bros ultimate</h3>
+        <img class="smash_melee_picture" src="/contents/smashultimate.png" alt="Smash mélée">
+        <p class="article_paragraph">Super Smash Bros Ultimate et le 5ème Super Smash Bros de la licence,
+        il est sortit il y peu sur Switch (la console de salon portable de Nintendo), c'est le Super Smash Bros
+        le plus complet de la licence, il y a plus de 70 personnages jouable.</p>
+      </article>
+    <div class="comment" role="contentinfo" itemprop="comment">
+      <img class="profile_picture" src="/contents/profil.png" alt="profil picture">
+      <p class="writted_comment">Superbe article !</p>
+      <p class="name_comment">Peter Parker</p>
+      <p class="date_comment">16/01/2019</p>
     </div>
-    </main>
-    <footer>
-        <p>Design by Haris souici -hehe- 2019</p>
-    </footer>
-  </body>
-  </html>
+  </main>
+  <footer>
+    <p>Design by Haris souici -hehe- 2019</p>
+  </footer>
+</body>
+</html>

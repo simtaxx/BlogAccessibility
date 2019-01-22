@@ -1,8 +1,8 @@
-*{
-  background-image: url("/contents/doodles/doodles.png");
-}
 header {
   text-align: center;
+}
+h1 {
+  font-weight: bold;
 }
 .picture_header {
   width: 100%;
